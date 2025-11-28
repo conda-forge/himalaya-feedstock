@@ -4,7 +4,6 @@ set -o xtrace -o nounset -o pipefail -o errexit
 
 export CARGO_PROFILE_RELEASE_STRIP=symbols
 export CARGO_PROFILE_RELEASE_LTO=fat
-export RUSTFLAGS="-C link-arg=-Wl,-all_load"
 
 # check licenses
 cargo-bundle-licenses \
