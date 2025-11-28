@@ -18,8 +18,6 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
-    - pkg-config
-    - libgit2 <1.9
   host:
     - openssl
 
