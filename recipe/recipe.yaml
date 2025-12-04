@@ -20,9 +20,9 @@ requirements:
     - cargo-bundle-licenses
     - pkg-config
     - gettext-tools
-  host:
     - if: osx
       then: libiconv
+  host:
     - openssl
 
 tests:
