@@ -19,9 +19,7 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - pkg-config
-    - gettext-tools
-    - if: osx
-      then: libiconv
+    - libgit2
   host:
     - openssl
 
