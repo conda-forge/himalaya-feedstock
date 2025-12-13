@@ -10,7 +10,7 @@ source:
   sha256: bc5ee10ebdb23ea205215650070373dc591f083a96b1d6d038aa23a105256f94
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - pkg-config
+    - libgit2 <1.9
   host:
     - openssl
 
