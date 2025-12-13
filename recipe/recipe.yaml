@@ -19,7 +19,7 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - pkg-config
-    - libgit2
+    - libgit2 <1.9
   host:
     - openssl
 
