@@ -1,5 +1,5 @@
 context:
-  version: "1.2.0"
+  version: "2.1.0"
 
 package:
   name: himalaya
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/soywod/himalaya/archive/v${{ version }}.tar.gz
-  sha256: 3d04afdf6f753219c2203feb8094a2ec82c77bab7f9acbe1811773e2a4562877
+  sha256: 491c7e51aa58874e2b70b4a0377e1770a1d3522392b9a9b867f965ac9d75aaa5
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - pkg-config
-    - libgit2 <1.9
+    - libgit2
   host:
     - openssl
 
@@ -30,7 +30,8 @@ tests:
 about:
   license: MIT
   license_file:
-    - LICENSE
+    - LICENSE-APACHE
+    - LICENSE-MIT
     - THIRDPARTY.yml
   summary: CLI email client written in Rust
   homepage: https://github.com/soywod/himalaya
