@@ -6,11 +6,11 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/soywod/himalaya/archive/v${{ version }}.tar.gz
+  url: https://github.com/pimalaya/himalaya/archive/v${{ version }}.tar.gz
   sha256: 491c7e51aa58874e2b70b4a0377e1770a1d3522392b9a9b867f965ac9d75aaa5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -34,8 +34,8 @@ about:
     - LICENSE-MIT
     - THIRDPARTY.yml
   summary: CLI email client written in Rust
-  homepage: https://github.com/soywod/himalaya
-  repository: https://github.com/soywod/himalaya
+  homepage: https://pimalaya.org
+  repository: https://github.com/pimalaya/himalaya
 
 extra:
   recipe-maintainers:
