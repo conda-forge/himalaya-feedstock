@@ -3,13 +3,13 @@ About himalaya-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/himalaya-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/soywod/himalaya
+Home: https://pimalaya.org/
 
 Package license: MIT
 
 Summary: CLI email client written in Rust
 
-Development: https://github.com/soywod/himalaya
+Development: https://github.com/pimalaya/himalaya
 
 Current build status
 ====================
