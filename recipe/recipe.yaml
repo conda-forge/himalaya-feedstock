@@ -1,5 +1,5 @@
 context:
-  version: "2.2.1"
+  version: "3.0.0"
 
 package:
   name: himalaya
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/soywod/himalaya/archive/v${{ version }}.tar.gz
-  sha256: 261b6d3bce4f0de6399b347525fc3c687f309d83840b4e10a58ab7ad70c03544
+  sha256: e6843e062be203d6c97b392f4f4f58844c3ae16f42849704727029e882274e0a
 
 build:
   number: 0
